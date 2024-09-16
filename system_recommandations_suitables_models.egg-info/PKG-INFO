@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: system_recommandations_suitables_models
+Version: 0.1
+Home-page: https://github.com/JamorMoussa/torch_utils
+Author: Anas Nouri
+Author-email: anas.nouri@usmba.ac.ma
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
