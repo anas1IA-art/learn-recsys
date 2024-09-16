@@ -1,52 +1,63 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Ignore specific data and dataset directories
+/data/ml-100k/
+/datasets/
 
-# Logs
-*.log
-lightning_logs/
+# Ignore lightning logs
+/lightning_logs/
 
-# Datasets
-data/
+# Ignore models directory
+/models/
 
-# Egg-info
-*.egg-info/
+# Ignore system recommendations suitable models directory
+/system_recommendations_suitables_model*/
 
-# System-specific files
-.DS_Store
-Thumbs.db
+# Ignore __pycache__ directories
+**/__pycache__/
 
-# Other project-specific directories to ignore
-system_recommendations_suitable_models.egg-info/
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
 
-# Test cache
-.pytest_cache/
+# Jupyter Notebook
+.ipynb_checkpoints
 
 # Virtual environment
 venv/
 env/
 *.venv
-*.env
 
 # IDE specific files
 .vscode/
 .idea/
 
-# Compiled Python files
-*.pyc
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 
 # Distribution / packaging
-dist/
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Python coverage files
-.coverage
-htmlcov/
-
-# mypy cache
-.mypy_cache/
+# Keep these files
+!LICENSE
+!README.md
+!requirements.txt
+!setup.py
