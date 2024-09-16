@@ -31,8 +31,11 @@ env/
 # Ignore data files (ensure this is intentional)
 /data
 
+/datasets
+
 # Track essential files
 !LICENSE
 !README.md
 !requirements.txt
-/data
+
+# /datac
