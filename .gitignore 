@@ -61,3 +61,21 @@ wheels/
 !README.md
 !requirements.txt
 !setup.py
+
+# ...but do ignore these specific directories
+data/
+datasets/
+lightning_logs/
+models/
+system_recommendations_suitables_model*/
+
+# Ignore all __pycache__ directories
+**/__pycache__/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Don't ignore any .py files (except those in ignored directories)
+!*.py
