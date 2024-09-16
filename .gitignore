@@ -1,8 +1,8 @@
 # # Ignore all __pycache__ directories and Python bytecode
-# *.pyc
-# *.pyo
-# *.pyd
-
+*.pyc
+*.pyo
+*.pyd
+# or **/__pycache__
 
 # Ignore system files
 .DS_Store
@@ -16,13 +16,10 @@ env/
 # Ignore log files
 *.log
 
-# Ignore compiled Python files
-*.pyc
-*.pyo
 
 # Ignore egg-info
 *.egg-info/
-# /system_recommandations_suitables_models.egg-info
+# or /system_recommandations_suitables_models.egg-info
 
 # Ignore additional IDE and OS files
 .vscode/
@@ -31,7 +28,8 @@ env/
 
 # Ignore data files (ensure this is intentional)
 /data
-
+/tes2
+/tests
 /file2
 
 # Track essential files
@@ -39,4 +37,4 @@ env/
 # README.md
 # requirements.txt
 
-# **/__pycache__
+
