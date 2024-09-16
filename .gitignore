@@ -1,7 +1,7 @@
-# Ignore all __pycache__ directories and Python bytecode
-*.pyc
-*.pyo
-*.pyd
+# # Ignore all __pycache__ directories and Python bytecode
+# *.pyc
+# *.pyo
+# *.pyd
 
 
 # Ignore system files
@@ -32,11 +32,11 @@ env/
 # Ignore data files (ensure this is intentional)
 /data
 
-
+/file2
 
 # Track essential files
-LICENSE
-README.md
-requirements.txt
+# LICENSE
+# README.md
+# requirements.txt
 
-
+# **/__pycache__
