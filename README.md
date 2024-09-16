@@ -26,4 +26,6 @@ Download these dataset and unzip in the root of this directory:
 ## Usage
 To train model in sections 3, 4, 6, 7, 9, 10, simply run `python corresponding_script.py`. Some hyperparameters like batch size, embedding dimension, etc. can be modified by arguments.
 
-To check the training progress, run `tensorboard --logdir lightning_logs`
+To check the training progress, run `tensorboard --logdir lightning_logs
+
+## scripting all previous models like a form of library`
