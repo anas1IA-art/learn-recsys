@@ -1,3 +1,8 @@
+# Ignore directories
+lightning_logs/
+system_recommandations_suitables_models.egg-info/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
