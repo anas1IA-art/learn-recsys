@@ -1,75 +1,52 @@
-# Ignore directories
-lightning_logs/
-system_recommandations_suitables_models.egg-info/
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
+# Logs
+*.log
+lightning_logs/
+
+# Datasets
+data/
+
+# Egg-info
+*.egg-info/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Other project-specific directories to ignore
+system_recommendations_suitable_models.egg-info/
+
+# Test cache
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
 
 # Distribution / packaging
-.Python
-build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+build/
 *.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
+# Python coverage files
+.coverage
+htmlcov/
 
-# Environment
-.env
-.venv
-env/
-venv/
-ENV/
-
-# IDE settings
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# mypy cache
+.mypy_cache/
