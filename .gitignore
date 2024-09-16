@@ -3,6 +3,7 @@
 *.pyo
 *.pyd
 
+
 # Ignore system files
 .DS_Store
 Thumbs.db
@@ -21,7 +22,7 @@ env/
 
 # Ignore egg-info
 *.egg-info/
-/system_recommandations_suitables_models.egg-info
+# /system_recommandations_suitables_models.egg-info
 
 # Ignore additional IDE and OS files
 .vscode/
@@ -31,11 +32,11 @@ env/
 # Ignore data files (ensure this is intentional)
 /data
 
-/datasets
+
 
 # Track essential files
-!LICENSE
-!README.md
-!requirements.txt
+LICENSE
+README.md
+requirements.txt
 
-# /datac
+
