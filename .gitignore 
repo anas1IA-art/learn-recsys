@@ -1,66 +1,36 @@
-
-
-# Ignore __pycache__ directories
+# Ignore all __pycache__ directories
 **/__pycache__/
 
-# Python bytecode
+# Ignore Python compiled files
 *.pyc
 *.pyo
 *.pyd
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Ignore the entire data directory
+/data/
 
-# Virtual environment
+
+# Ignore potential virtual environment directories
 venv/
 env/
-*.venv
+.venv/
 
-# IDE specific files
+# Ignore potential IDE settings
 .vscode/
 .idea/
 
-# Operating system files
+# Ignore system files
 .DS_Store
 Thumbs.db
 
-# Logs
+# Ignore potential log files
 *.log
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Ignore potential database files
+*.db
+*.sqlite
 
 # Keep these files
 !LICENSE
 !README.md
 !requirements.txt
-!setup.py
-
-# ...but do ignore these specific directories
-
-
-# Ignore all __pycache__ directories
-**/__pycache__/
-
-# Ignore Python bytecode files
-*.pyc
-*.pyo
-*.pyd
-
-# Don't ignore any .py files (except those in ignored directories)
-!*.py
